@@ -18,7 +18,7 @@
 
 | 首页、分类 | 二级分类、详情 | 购物车、个人 |
 | :--------: | :--------:| :--------: |
-| ![首页、分类](./screenshot/video-01.gif) | ![二级分类、详情](./screenshot/video-02.gif) | ![购物车、个人](./screenshot/video-03.gif) |
+| ![首页、分类](https://qit-team.github.io/public/images/taro-yanxuan/video-01.gif) | ![二级分类、详情](https://qit-team.github.io/public/images/taro-yanxuan/video-02.gif) | ![购物车、个人](https://qit-team.github.io/public/images/taro-yanxuan/video-03.gif) |
 
 ## 本地运行
 
