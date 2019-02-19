@@ -8,6 +8,8 @@
 
 ## 效果预览
 
+本项目直接调用的网易严选微信小程序接口，若要体验登录、购物车功能，请使用网易邮箱账号登录。
+
 | 微信小程序 | H5 - [访问链接](http://jsnewbee.com/taro-yanxuan/) | React Native |
 | :--------: | :--------:| :--------: |
 | 请 clone 代码本地运行 | ![H5](./screenshot/h5-qr-code.png) | [Expo Snacks](https://snack.expo.io/@caiminxing/taro-yanxuan) |
@@ -23,13 +25,19 @@
 本项目直接调用的网易严选微信小程序接口，若要体验登录、购物车功能，请使用网易邮箱账号登录。
 
 ``` bash
-# 微信小程序
+# 全局安装 @tarojs/cli 指定版本，或 npm install -g @tarojs/cli@1.2.13
+yarn global add @tarojs/cli@1.2.13
+
+# 安装依赖，或 npm i
+yarn
+
+# 运行微信小程序
 npm run dev:weapp
 
-# H5
+# 运行 H5
 npm run dev:h5
 
-# React Native
+# 运行 React Native
 # 注意当前未适配各屏幕大小，需用 375px 屏幕大小运行才能取得最佳效果
 # 若用 iOS 模拟器打开的不是 iPhone 6/7/8，可点击顶部菜单 Hardware -> iOS xx 切换设备
 npm run dev:rn
